@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets.css">
+</head>
+<body>
+	<h1>Contact Us</h1>
+	<form class='contact-form'>
+		<table>
+			<tr>
+				<td>Subject:</td>
+				<td><input type="text" autofocus id="subject-matter"></td>
+			</tr>
+			<tr>
+				<td>Email Add:</td>
+				<td><input type="text" placeholder=" johnsmith@example.com" id="email-add"></td>
+			</tr>
+			<tr>
+				<td>Message:</td>
+				<td><textarea id="message-box"></textarea></td>
+			</tr>
+			<tr>
+				<td><br></td>
+				<td><input type="submit" value="Send Message" id="send-button"></td>
+			</tr>
+		</table>
+	</form>
+<script type="text/javascript">
+	document.getElementById('send-button').onclick = function () {
+	var subject = document.getElementById('subject-matter').value;
+	var email_ad = document.getElementById('email-add').value;
+	var message = document.getElementById('message-box').value;
+	alert("Subject matter: " + subject +" By email address: "+ email_ad + " Send message: " + message)
+	// Add mail:to function
+	// if (true) {} else {}
+
+}
+</script>
+</body>
+</html>

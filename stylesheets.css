@@ -1,0 +1,58 @@
+/*
+- inline- inside tags
+- internal- inside html document(header)
+- external- in different file
+- id's are used once per page
+- classes can be used more than once
+- add google fonts
+*/
+
+body {
+	font-family: Ubuntu Light;
+	background-color: #c2ffbf;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+
+#top {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.input-fields {
+	margin: 30px 100px 100px 0px;
+
+}
+
+/*top right bottom left*/
+
+.footer {
+	text-align: center;
+}
+
+#address-bar {font-size: 75%;}
+#about-us {text-decoration: none;}
+#contact-us {text-decoration: none;}
+#terms-of-service {text-decoration: none;}
+#privacy-policy {text-decoration: none;}
+#copyright_footer {
+	color: grey;
+	font-size: 50%;
+}
+
+.contact-form {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+#message-box {
+	width: 166px;
+	height: 100px;
+}
+
+#send-button {
+	padding: 10px;
+}
